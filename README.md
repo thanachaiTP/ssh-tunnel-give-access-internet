@@ -1,4 +1,6 @@
 # SSH tunnel Give server access to Internet, via client connecting by SSH
+ในกรณีที่เรามี Server ที่เป็น private zone ที่ไม่สามารถใช้งาน internet ได้ และสามารถเข้าถึงได้จาก VPN เท่านั้น
+วิธีนี้จะทำให้ Server สามารถใช้งาน Internet ได้จากเครื่อง Computer ของเราแทน โดยให้เครื่อง Computer ของเรานั้นเป็น proxy server
 
 ![Alt text](img/ssh-tunnel-proxy-to-internet.jpg)
 
