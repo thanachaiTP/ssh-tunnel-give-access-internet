@@ -11,7 +11,7 @@
 # docker-compose -f tinyproxy/docker-compose.yaml up -d
 ```
 
-## 2. SSh Tunnel Remote Fowarding To Host 2
+## 2. SSH Tunnel Remote Fowarding To Host 2
 ```
 # ssh -R 8888:127.0.0.1:8888 root@10.100.1.11
 ```
